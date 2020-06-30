@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Cormorant Garamond', serif;
 }
 
 .top {
@@ -9,6 +10,24 @@
 	border-bottom: 1px solid #D3D0D3;
 	display: flex;
 	justify-content: center;
+}
+
+.nav-link {
+	height: 110px;
+	width: 200px;
+}
+
+.nav-link a {
+	display: block;
+	margin: 50px 0 0 50px;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+}
+
+.nav-link a:hover {
+	color: #7F7F7F;
+	text-decoration: underline;
 }
 
 .main-logo {
@@ -22,9 +41,19 @@
 	margin: 0 36px;
 }
 
-.main {
+.headline {
 	height: 400px;
 	background: url(../img/spa.resized.jpg);
 }
 
+.content {
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;	
+}
+
+.content-section {
+	margin: 40px 0 0 0;
+}
 
