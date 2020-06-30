@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.top {
+	height: 120px;
+	background: #FFC8F4;
+	border-bottom: 1px solid #D3D0D3;
+	display: flex;
+	justify-content: center;
+}
+
+.main {
+	height: 400px;
+	background: url(../img/spa.resized.jpg);
+}
+
+
