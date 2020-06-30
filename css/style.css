@@ -4,11 +4,22 @@
 }
 
 .top {
-	height: 120px;
+	height: 110px;
 	background: #FFC8F4;
 	border-bottom: 1px solid #D3D0D3;
 	display: flex;
 	justify-content: center;
+}
+
+.main-logo {
+	height: 180px;
+	width: 180px;
+	background: #FFC8F4;
+	border-radius: 100px;
+}
+
+.main-logo img {
+	margin: 0 36px;
 }
 
 .main {
