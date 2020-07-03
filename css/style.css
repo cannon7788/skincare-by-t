@@ -45,7 +45,7 @@
 
 .headline {
 	height: 480px;
-	background: url(../img/spa.resized.jpg);
+	background: url(../img/spa.jpg);
 }
 
 .content {
@@ -68,6 +68,7 @@
 .section-body {
 	display: flex;
 	justify-content: center;
+	margin-bottom: 40px;
 }
 
 .panel {
@@ -99,4 +100,30 @@
 .panel p {
 	margin-left: 10px;
 	line-height: 1.5em;
+}
+
+.testimonials {
+	background: url(../img/treatment.jpg);
+}
+
+.quote {
+	padding: 20px;
+}
+
+.quote p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.left{
+	margin: 20px 100px 20px 0;
+	background: rgba(254,198, 247, 0.4);
+	border-radius: 25px 25px 25px 4px;	
+}
+
+.right{
+	margin: 20px 0 20px 100px;
+	background: rgba(0,133, 255, 0.4);
+	border-radius: 25px 25px 4px 25px;	
 }
