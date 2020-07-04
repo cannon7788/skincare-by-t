@@ -28,8 +28,7 @@
 }
 
 .nav-link a:hover {
-	color: #7F7F7F;
-	text-decoration: underline;
+	font-size: 27px;
 }
 
 .main-logo {
@@ -126,4 +125,27 @@
 	margin: 20px 0 20px 100px;
 	background: rgba(0,133, 255, 0.4);
 	border-radius: 25px 25px 4px 25px;	
+}
+
+.contact-button {
+	padding: 40px 45px;
+	background: #FFC8F4;
+	margin: 20px;
+	border-radius: 100px;
+}
+
+.contact-button a:link {
+	color: #7F7F7F;
+}
+
+.contact-button a:visited {
+	color: #7F7F7F;
+}
+
+.contact-button a:hover {
+	color: #363636;
+}
+
+.contact-button a:active {
+	color: #ffffff;
 }
