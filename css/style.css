@@ -164,10 +164,14 @@
 }
 
 .portrait {
-	margin-top: 75px;
+	margin-top: 105px;
 	margin-left: 20px;
 	background: url(../img/portrait2.resized.png);
 	width: 250px;
-	height: 250px;
+	height: 220px;
 	border-radius: 125px;
+}
+
+.footer{
+	background: #FFC8F4;
 }
