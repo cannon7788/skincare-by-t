@@ -62,6 +62,7 @@
 	text-align: center;
 	font-weight: lighter;
 	font-size: 50px;
+	margin-bottom: 40px;
 }
 
 .section-body {
@@ -148,4 +149,25 @@
 
 .contact-button a:active {
 	color: #ffffff;
+}
+
+.bio {
+	padding: 25px;
+	width: 700px;
+	background: #FFC8F4;
+	border-radius: 10px;
+}
+
+.bio p {
+	font-size: 20px;
+	line-height: 1.5em;
+}
+
+.portrait {
+	margin-top: 75px;
+	margin-left: 20px;
+	background: url(../img/portrait2.resized.png);
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
 }
